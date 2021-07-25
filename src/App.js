@@ -9,13 +9,13 @@ const App = () => {
   return (
     <Layout>
       <Header />
-      <Container>
+      <>
         <BrowserRouter>
           <Switch>
             <Route exact path="/" component={Home} />
           </Switch>
         </BrowserRouter>
-      </Container>
+      </>
     </Layout>
   );
 }
